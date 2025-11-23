@@ -1,0 +1,40 @@
+<svg width="1920" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E88E5;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1976D2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1565C0;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Pattern untuk texture -->
+    <pattern id="pattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="2" fill="white" opacity="0.1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="600" fill="url(#heroGrad)"/>
+  <rect width="1920" height="600" fill="url(#pattern)"/>
+  
+  <!-- Decorative shapes -->
+  <circle cx="200" cy="150" r="120" fill="white" opacity="0.05"/>
+  <circle cx="1700" cy="450" r="150" fill="white" opacity="0.05"/>
+  <circle cx="1500" cy="100" r="80" fill="white" opacity="0.03"/>
+  <circle cx="400" cy="500" r="100" fill="white" opacity="0.04"/>
+  
+  <!-- Lines -->
+  <line x1="0" y1="200" x2="400" y2="200" stroke="white" stroke-width="3" opacity="0.1"/>
+  <line x1="1500" y1="300" x2="1920" y2="300" stroke="white" stroke-width="3" opacity="0.1"/>
+  
+  <!-- Text -->
+  <text x="960" y="280" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle" opacity="0.3">
+    BOMM HERO IMAGE
+  </text>
+  <text x="960" y="340" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle" opacity="0.3">
+    Ganti gambar ini di public/hero-bomm.jpg
+  </text>
+  <text x="960" y="380" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle" opacity="0.3">
+    Ukuran rekomendasi: 1920x600px atau ratio 16:5
+  </text>
+</svg>
